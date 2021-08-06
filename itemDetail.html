@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STORE</title>
+    <link rel="stylesheet" href="/static/css/reset.css">
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/itemDetail.css">
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="top_logo">
+            <a href="index.html">
+                <img src="/static/images/logo1.png" alt="logo">
+            </a>
+        </div>
+        <div class="menu_top">
+            <div class="menu_top_item">
+                <div id="search">
+                    <img src="/static/images/search.png" alt="">
+                    <input type="text" placeholder="SEARCH">
+                </div>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='國民男鞋'" onmouseout="this.innerText='SHOES'">
+                <a href="#">SHOES</a>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='  男裝  '" onmouseout="this.innerText='CLOTHES'">
+                <a href="#">CLOTHES</a>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='  包夾  '" onmouseout="this.innerText='BAGS'">
+                <a href="#">BAGS</a>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='  配件  '" onmouseout="this.innerText='ACCESSORIES'">
+                <a href="#">ACCESSORIES</a>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='PREMIUM'" onmouseout="this.innerText='PREMIUM'">
+                <a href="#">PREMIUM</a>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='品牌合作'" onmouseout="this.innerText='BRAND'">
+                <a href="#">BRAND</a>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='體驗門市'" onmouseout="this.innerText='STORE'">
+                <a href="#">STORE</a>
+            </div>
+            <div class="icon">
+                <div id="cart">
+                    <a href="cart.html">
+                        <img src="/static/images/cart.png" alt="cart">
+                    </a>
+                </div>
+                <div id="login">
+                    <ul class="dropdown">
+                        <li class="dropdownbtn"><img src="/static/images/login.png"></li>
+                        <ul class="dropdown-content">
+                            <li><a href="login.html">會員登入</a></li>
+                            <li><a href="cart.html">訂單查詢</a></li>
+                            <li><a href="#">other</a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- detail -->
+    <div class="itemDetail">
+        <div class="itemImg">
+            <img src="/static/images/commodity.jpg" alt="">
+        </div>
+        <div class="detail">
+            <div class="itemPrice">NT.790</div>
+            <div class="itemName">Casual 奇幻人生 刷毛連帽長袖上衣(寬版)</div>
+            <div class="itemNo">NO.10473</div>
+            <div class="saleNum">已銷售49件</div>
+            <div class="itemColor">
+                <span class="cmdTitle">商品顏色</span>
+                <div class="cmdColor">
+                    灰綠
+                </div>
+            </div>
+            <div class="itemSize">
+                <span class="cmdTitle">商品尺寸</span>
+                <div class="group">
+                    <button class="btn sizebtn">S-M</button>
+                    <button class="btn sizebtn">L-XL</button>
+                </div>
+            </div>
+            <div class="itemNum">
+                <h2 class="cmdTitle">商品數量</h2> 
+                <select name="cmdNum" id="cmdNum">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div class="group">
+                <button class="btn addbtn"><a href="cart.html">加入購物車</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="menu_bottom">
+            <div class="menu_bottom_title">ABOUT</div>
+            <div class="menu_bottom_item">
+                <a href="#">品牌精神</a>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">公司資訊</a>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">體驗門市</a>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">人才招募</a>
+            </div>
+        </div>
+        <div class="menu_bottom">
+            <div class="menu_bottom_title">INFO</div>
+            <div class="menu_bottom_item">
+                <a href="#">常見問題FAQ</a>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">滿1000免運</a>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">退貨申請流程</a>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">私人造型顧問</a>
+            </div>
+        </div>
+        <div class="call">
+            <div class="menu_bottom_title">CALL CENTER</div>
+            <div class="menu_bottom_item">
+                04-7771100
+            </div>
+            <div class="menu_bottom_item">
+                Mon-Friday 9:00-18:00
+                <br>
+                Lunch Time 12:00-13:00/Off
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">線上客服</a>
+            </div>
+        </div>
+        <div class="call"></div>
+        <div class="follow">
+            <div class="menu_bottom_title">FOLLOW US</div>
+            <div class="menu_bottom_item">
+                <div class="icon_follow">
+                    <img src="/static/images/follow.png">
+                </div>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">切換至手機板</a>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

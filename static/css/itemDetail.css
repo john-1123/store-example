@@ -1,0 +1,64 @@
+.itemDetail {
+    margin: 0 20%;
+    display: flex;
+}
+.itemImg {
+    /* background-color: #faa; */
+    width: 50%;
+}
+.itemImg img {
+    max-width: 100%;
+    min-height: 100%;
+}
+.detail {
+    /* background-color: #aaf; */
+    width: 50%;
+    line-height: 1.5;
+    padding: 6vw;
+    font-size: 2vh;
+}
+.itemPrice {
+    font-size: 3vh;
+    opacity: .7;
+}
+.cmdTitle {
+    font-size: 1.5vh;
+    opacity: .5;
+}
+.saleNum {
+    border-bottom: 1px solid;
+    margin-bottom: 2vh;
+}
+.cmdTitle {
+    font-size: 1.5vh;
+    opacity: .5;
+}
+.btn {
+    border: 1px solid;
+    border-color: #fff;
+    margin: 5px 5px;
+
+}
+.sizebtn {
+    width: 4vw;
+    height: 5vh;
+    font-size: 2vh;
+    background-color: #fff;
+}
+.sizebtn:hover {
+    background-color: black;
+    color: #fff;
+}
+.itemNum select {
+    width: 3vw;
+    height: 4vh;
+    margin: 1vh;
+    font-size: 2vh;
+}
+.addbtn {
+    width: 10vw;
+    height: 5vh;
+    background-color: black;
+    color: #fff;
+    opacity: .8;
+}

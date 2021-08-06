@@ -1,0 +1,78 @@
+.cart_list {
+    margin: 0 10%;
+}
+.cart_list img {
+    max-width: 100%;
+    min-height: 100%;
+}
+.cart_list table {
+    width: 100%;
+    margin-top: 5vh;
+    font-size: 1vw;
+}
+.cart_list thead {
+    background-color: #000;
+    color: #999;
+}
+.cart_list thead th{
+    height: 4vh;
+    vertical-align: middle;
+    border-right: 3px solid #fff;
+}
+.cart_list tbody td {
+    vertical-align: middle;
+    text-align: center;
+}
+.commodityImg {
+    width: 20%;
+}
+.commodityNo {
+    width: 8%;
+}
+.commodityName {
+    width: 40%;
+}
+.commodityColor {
+    width: 5%;
+}
+.commoditySize {
+    width: 5%;
+}
+.commodityNum {
+    width: 8%;
+}
+.commodityPrice {
+    width: 5%;
+}
+.commoditySum {
+    width: 5%;
+}
+.deleted {
+    width: 5%;
+}
+
+.cart_list_bottom {
+    width: 100%;
+    text-align: center;
+    font-size: 1vw;
+}
+.subtotal {
+    margin: 2vh;
+}
+.amount {
+    margin: 1vh;
+    border: 2px solid #ccc;
+    width: 200px;
+    margin: 0 auto;
+}
+.checkout {
+    margin: 1vh;
+}
+.btn {
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: #fff;
+    width: 8vw;
+    height: 4vh;
+}

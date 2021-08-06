@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STORE</title>
+    <link rel="stylesheet" href="/static/css/reset.css">
+    <link rel="stylesheet" href="/static/css/index.css">
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="top_logo">
+            <a href="index.html">
+                <img src="/static/images/logo1.png" alt="logo">
+            </a>
+        </div>
+        <div class="menu_top">
+            <div class="menu_top_item">
+                <div id="search">
+                    <img src="/static/images/search.png" alt="">
+                    <input type="text" placeholder="SEARCH">
+                </div>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='國民男鞋'" onmouseout="this.innerText='SHOES'">
+                <a href="#">SHOES</a>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='  男裝  '" onmouseout="this.innerText='CLOTHES'">
+                <a href="#">CLOTHES</a>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='  包夾  '" onmouseout="this.innerText='BAGS'">
+                <a href="#">BAGS</a>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='  配件  '" onmouseout="this.innerText='ACCESSORIES'">
+                <a href="#">ACCESSORIES</a>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='PREMIUM'" onmouseout="this.innerText='PREMIUM'">
+                <a href="#">PREMIUM</a>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='品牌合作'" onmouseout="this.innerText='BRAND'">
+                <a href="#">BRAND</a>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='體驗門市'" onmouseout="this.innerText='STORE'">
+                <a href="#">STORE</a>
+            </div>
+            <div class="icon">
+                <div id="cart">
+                    <a href="cart.html">
+                        <img src="/static/images/cart.png" alt="cart">
+                    </a>
+                </div>
+                <div id="login">
+                    <ul class="dropdown">
+                        <li class="dropdownbtn"><img src="/static/images/login.png"></li>
+                        <ul class="dropdown-content">
+                            <li><a href="login.html">會員登入</a></li>
+                            <li><a href="cart.html">訂單查詢</a></li>
+                            <li><a href="#">other</a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Slideshow -->
+    <div class="slide-container">
+        <div class="mySlides">
+            <img src="/static/images/index01.jpg" alt="">
+        </div>
+        <div class="mySlides">
+            <img src="/static/images/index02.jpg" alt="">
+        </div>
+        <div class="mySlides">
+            <img src="/static/images/index03.jpg" alt="">
+        </div>
+        <div class="mySlides">
+            <img src="/static/images/index04.jpg" alt="">
+        </div>
+        <div class="mySlides">
+            <img src="/static/images/index05.jpg" alt="">
+        </div>
+    </div>
+    <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <!--Gallery-->
+    <div class="gallery-container">
+        <img src="/static/images/title.jpg" alt="">
+        <div class="gallery">
+            <div class="item column2">
+                <a href="itemDetail.html">
+                    <img src="/static/images/index06.jpg">
+                </a>
+            </div>
+            <div class="item column2">
+                <a href="itemDetail.html">
+                    <img src="/static/images/index07.jpg">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="gallery-container">
+        <img src="/static/images/title.jpg" alt="">
+        <div class="gallery">
+            <div class="item column4">
+                <a href="itemDetail.html">
+                    <img src="/static/images/index08.jpg">
+                </a>
+            </div>
+            <div class="item column4">
+                <a href="itemDetail.html">
+                    <img src="/static/images/index09.jpg">
+                </a>
+            </div>
+            <div class="item column4">
+                <a href="itemDetail.html">
+                    <img src="/static/images/index10.jpg">
+                </a>
+            </div>
+            <div class="item column4">
+                <a href="itemDetail.html">
+                    <img src="/static/images/index11.jpg">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="gallery-container">
+        <img src="/static/images/title.jpg" alt="">
+        <div class="gallery">
+            <div class="item column4">
+                <a href="itemDetail.html">
+                    <img src="/static/images/index12-1.jpg" onmouseover="this.setAttribute('src','/static/images/index12.jpg')" onmouseout="this.setAttribute('src','/static/images/index12-1.jpg')">
+                </a>
+                <div>
+                    磨毛織紋 菱格大衣
+                    <br>
+                    NT.1,980
+                </div>
+            </div>
+            <div class="item column4">
+                <a href="itemDetail.html">
+                    <img src="/static/images/index13-1.jpg" onmouseover="this.setAttribute('src','/static/images/index13.jpg')" onmouseout="this.setAttribute('src','/static/images/index13-1.jpg')">
+                </a>
+                <div>
+                    厚實刷毛 刺繡連帽長袖上衣
+                    <br>
+                    NT.790
+                </div>
+            </div>
+            <div class="item column4">
+                <a href="itemDetail.html">
+                    <img src="/static/images/index14-1.jpg" onmouseover="this.setAttribute('src','/static/images/index14.jpg')" onmouseout="this.setAttribute('src','/static/images/index14-1.jpg')">
+                </a>
+                <div>
+                    防潑水抗風 衝鋒外套
+                    <br>
+                    NT.999
+                </div>
+            </div>
+            <div class="item column4">
+                <a href="itemDetail.html">
+                    <img src="/static/images/index15-1.jpg" onmouseover="this.setAttribute('src','/static/images/index15.jpg')" onmouseout="this.setAttribute('src','/static/images/index15-1.jpg')">
+                </a>
+                <div>
+                    高磅數 立體雙口袋縮口長褲
+                    <br>
+                    NT.990
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery-container">
+        <img src="/static/images/title.jpg" alt="">
+        <div class="gallery">
+            <div class="item column4">
+                <a href="itemDetail.html">
+                    <img src="/static/images/index20.jpg">
+                </a>
+            </div>
+            <div class="item column4">
+                <a href="itemDetail.html">
+                    <img src="/static/images/index21.jpg">
+                </a>
+            </div>
+            <div class="item column4">
+                <a href="itemDetail.html">
+                    <img src="/static/images/index22.jpg">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="menu_bottom">
+            <div class="menu_bottom_title">ABOUT</div>
+            <div class="menu_bottom_item">
+                <a href="#">品牌精神</a>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">公司資訊</a>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">體驗門市</a>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">人才招募</a>
+            </div>
+        </div>
+        <div class="menu_bottom">
+            <div class="menu_bottom_title">INFO</div>
+            <div class="menu_bottom_item">
+                <a href="#">常見問題FAQ</a>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">滿1000免運</a>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">退貨申請流程</a>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">私人造型顧問</a>
+            </div>
+        </div>
+        <div class="call">
+            <div class="menu_bottom_title">CALL CENTER</div>
+            <div class="menu_bottom_item">
+                04-7771100
+            </div>
+            <div class="menu_bottom_item">
+                Mon-Friday 9:00-18:00
+                <br>
+                Lunch Time 12:00-13:00/Off
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">線上客服</a>
+            </div>
+        </div>
+        <div class="call"></div>
+        <div class="follow">
+            <div class="menu_bottom_title">FOLLOW US</div>
+            <div class="menu_bottom_item">
+                <div class="icon_follow">
+                    <img src="/static/images/follow.png">
+                </div>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">切換至手機板</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/static/js/index.js"></script>
+</body>
+</html>

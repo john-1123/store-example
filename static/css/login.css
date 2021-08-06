@@ -1,0 +1,46 @@
+.login {
+    display: flex;
+    margin: 5% 20%;
+    height: 50vh;
+    /* background-color: #aaf; */
+    justify-content: space-around;
+}
+.group {
+    /* background-color: #faa; */
+    display: flex;
+    justify-content: flex-end;
+    margin: 2vh;
+    font-size: .5vw;
+}
+/* .sign_in {
+    background-color: azure;
+}
+.create_account {
+    background-color: bisque;
+} */
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.group label {
+    margin: 1vh;
+}
+.user-input {
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    width: 180px;
+}
+.btn {
+    border: none;
+    border-radius: 10px;
+    opacity: .8;
+    background-color: black;
+    color: #fff;
+    width: 10vw;
+    height: 6vh;
+    font-size: .5vw;
+    margin-right: 2vw;
+}
+.signImg {
+    margin: 0 2vw;
+}

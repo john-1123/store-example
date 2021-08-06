@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STORE</title>
+    <link rel="stylesheet" href="/static/css/reset.css">
+    <link rel="stylesheet" href="/static/css/index.css">
+    <link rel="stylesheet" href="/static/css/login.css">
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="top_logo">
+            <a href="index.html">
+                <img src="/static/images/logo1.png" alt="logo">
+            </a>
+        </div>
+        <div class="menu_top">
+            <div class="menu_top_item">
+                <div id="search">
+                    <img src="/static/images/search.png" alt="">
+                    <input type="text" placeholder="SEARCH">
+                </div>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='國民男鞋'" onmouseout="this.innerText='SHOES'">
+                <a href="#">SHOES</a>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='  男裝  '" onmouseout="this.innerText='CLOTHES'">
+                <a href="#">CLOTHES</a>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='  包夾  '" onmouseout="this.innerText='BAGS'">
+                <a href="#">BAGS</a>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='  配件  '" onmouseout="this.innerText='ACCESSORIES'">
+                <a href="#">ACCESSORIES</a>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='PREMIUM'" onmouseout="this.innerText='PREMIUM'">
+                <a href="#">PREMIUM</a>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='品牌合作'" onmouseout="this.innerText='BRAND'">
+                <a href="#">BRAND</a>
+            </div>
+            <div class="menu_top_item" onmouseover="this.innerText='體驗門市'" onmouseout="this.innerText='STORE'">
+                <a href="#">STORE</a>
+            </div>
+            <div class="icon">
+                <div id="cart">
+                    <a href="cart.html">
+                        <img src="/static/images/cart.png" alt="cart">
+                    </a>
+                </div>
+                <div id="login">
+                    <ul class="dropdown">
+                        <li class="dropdownbtn"><img src="/static/images/login.png"></li>
+                        <ul class="dropdown-content">
+                            <li><a href="login.html">會員登入</a></li>
+                            <li><a href="cart.html">訂單查詢</a></li>
+                            <li><a href="#">other</a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--user login-->
+    <div class="login">
+        <div class="sign_in">
+            <form class="form">
+                <div class="group">
+                    <img src="/static/images/signin.png" class="signImg">
+                </div>
+                <div class="group">
+                    <label for="user_id">會員帳號/ACCOUNT</label>
+                    <input type="text" class="user-input" id="user_id">
+                </div>
+                <div class="group">
+                    <label for="user_pwd">會員密碼/PASSWORD</label>
+                    <input type="password" class="user-input" id="user_pwd">
+                </div>
+                <div class="group"><a href="#">忘記密碼/FORGOT PASSWORD?</a></div>
+                <div class="group">
+                    <input type="checkbox">記住此帳號/REMEMBER ME
+                </div>
+                <div class="group">
+                    <button class="btn">登入/SIGN IN</button>
+                </div>
+            </form>
+        </div>
+        <div class="create_account">
+            <form class="form">
+                <div class="group">
+                    <img src="/static/images/createanaccount.png">
+                </div>
+                <div class="group">
+                    <label for="create_user_id">會員帳號/ACCOUNT</label>
+                    <input type="text" class="user-input" id="create_user_id">
+                </div>
+                <div class="group">
+                    <label for="create_user_pwd">會員密碼/PASSWORD</label>
+                    <input type="password" class="user-input" id="create_user_id">
+                </div>
+                <div class="group">
+                    <label for="check_user_pwd">確認密碼/MAKE SURE</label>
+                    <input type="password" class="user-input" id="check_user_pwd">
+                </div>
+                <div class="group">
+                    <button class="btn">加入會員/REGISTER</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="menu_bottom">
+            <div class="menu_bottom_title">ABOUT</div>
+            <div class="menu_bottom_item">
+                <a href="#">品牌精神</a>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">公司資訊</a>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">體驗門市</a>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">人才招募</a>
+            </div>
+        </div>
+        <div class="menu_bottom">
+            <div class="menu_bottom_title">INFO</div>
+            <div class="menu_bottom_item">
+                <a href="#">常見問題FAQ</a>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">滿1000免運</a>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">退貨申請流程</a>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">私人造型顧問</a>
+            </div>
+        </div>
+        <div class="call">
+            <div class="menu_bottom_title">CALL CENTER</div>
+            <div class="menu_bottom_item">
+                04-7771100
+            </div>
+            <div class="menu_bottom_item">
+                Mon-Friday 9:00-18:00
+                <br>
+                Lunch Time 12:00-13:00/Off
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">線上客服</a>
+            </div>
+        </div>
+        <div class="call"></div>
+        <div class="follow">
+            <div class="menu_bottom_title">FOLLOW US</div>
+            <div class="menu_bottom_item">
+                <div class="icon_follow">
+                    <img src="/static/images/follow.png">
+                </div>
+            </div>
+            <div class="menu_bottom_item">
+                <a href="#">切換至手機板</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/static/js/index.js"></script>
+</body>
+</html>
